@@ -43,6 +43,15 @@ values.forEach((value) => {
   });
 });
 
+values.forEach((value) => {
+  value.addEventListener("mousedown", () => {
+    value.style.opacity = 0.6;
+  });
+  value.addEventListener("mouseup", () => {
+    value.style.opacity = 1;
+  });
+});
+
 const operator = (check) => {
   switch (check) {
     case "clear":
