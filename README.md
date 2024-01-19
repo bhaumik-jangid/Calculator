@@ -1,1 +1,2 @@
 # Calculator
+  Mini Calculator Project
